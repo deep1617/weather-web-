@@ -1,0 +1,90 @@
+.top{
+    position: relative;
+    background-color: #215167;
+}
+.main_header{
+    position: relative;
+    margin-top: 10%;
+}
+.snow{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.error-img{
+    height: 40%;
+    width: 40%;
+}
+.main_content{
+    text-align: center;
+}
+.nav-other{
+    margin-left : 60%;
+}
+.carousel-item {
+    transition: transform 2.6s ease-in-out;
+}
+  .carousel-fade .active.carousel-item-start,
+  .carousel-fade .active.carousel-item-end {
+    transition: opacity 0s 2.6s;
+  }
+.about-me{
+    position: relative;
+    margin-top: 30%;
+    text-align: center;
+}
+.temp-information{
+    position: absolute;
+    display: block;
+    margin: auto;
+    right: 37%;
+    /* bottom: 0% */
+    top: 140%;
+    /* margin-top: 10%; */
+    /* margin-top: 5%;  */
+    width:20rem ;
+    margin: auto ;
+    min-height: 15rem;
+    background-color: #215167;
+    border-radius: 1rem;
+    /* padding-top: 10%; */
+    padding: 1rem;
+
+}
+.top-layer{
+    width: 100%;
+    height: 20%;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 0.1rem;    
+}
+.top-layer p{
+    color: darkblue;
+}
+.main-layer{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    /* padding: 2rem; */
+}
+.main-layer .middle-layer{
+    display: flex;
+    justify-content: space-around;
+    color : black;
+}
+#temp{
+    font-size: 5rem;
+}
+.clo{
+    position: relative;
+    margin-top: 50%;
+    font-size: 4rem;
+}
+.data_hide{
+    visibility: hidden;
+    transition: all 0.3 linear;
+}

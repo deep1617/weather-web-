@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />    -->
+    <script src="https://kit.fontawesome.com/8b15b3005e.js" crossorigin="anonymous"></script>
+    <title>Hello, world!</title>
+    
+  </head>
+  <body>
+    <!-- <h1>Hello, world!</h1> -->
+    {{>header}}
+    <div class="container-fluid main_header">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+            <div class="main_content">
+                <form class = "temp-form">
+                    <input type="text" id="cityname"  placeholder="Enter your city name" autocomplete="off">
+                    <input type="submit" value="search" id="submitbtn">
+                </form>
+            </div>
+            <div class="temp-information">
+                <div class = "top-layer">
+                    <p id = "day">Tuesday</p>
+                    <p id = "today-day">11 March</p>
+                </div>
+                <div class = "main-layer">
+                    <p id = "city_name">Get Your output here</p>
+                    <div class="middle-layer data_hide">
+                        <p id = "temp"><span id = "tempe">0</span><sup>o</sup>C</p>
+                        <p id = "temp-status"><i class="fa fa-cloud clo" style="color: blue;"></i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+      <!-- <h1>deepanshu</h1> -->
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+    <script src="main.js"></script>
+  </body>
+</html>
